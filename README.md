@@ -1,7 +1,7 @@
 # MountainTrails
 This code was generated to aid in visualizing terrain conditions at ski resorts. Comparing online snow reports with busy trail maps manually became frustrating and I became interested in generating my own version of trail maps that incorporated up-to-date information from the reports. 
 
-Example snow report for the day! 
+Example snow report for the day! (May take a moment to load in the browser)
 ![Generated Image](Daily_Trail_Maps/Wildcat_2022_12_29T17_37_50_7091556_07_00.png) 
 
 ## Resorts Currently Supported
