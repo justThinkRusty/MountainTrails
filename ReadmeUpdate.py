@@ -43,5 +43,13 @@ for i in range(len(lines)):
 with open(cwd + "README.md", "w") as f:
     f.writelines(lines)
 
+# Now move all older files to the Old folder
+Old = Maps + 'Old/'
+if not os.path.exists(Old):
+    os.makedirs(Old)
+
+for i in range(len(file_list) - 1):
+    os.rename(Maps + file_list[i], Old + file_list[i])
+
 
 
