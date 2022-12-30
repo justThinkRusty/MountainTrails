@@ -36,7 +36,7 @@ with open(cwd + "README.md", "r") as f:
 # Find the line that contains the most recent date
 for i in range(len(lines)):
     if lines[i].startswith("![Generated Image](Daily_Trail_Maps/"):
-        lines[i-1] = "Example snow report for the today " + Month + "/" + Day + "/" + Year + "! (May take a moment to load in the browser) \n"
+        lines[i-1] = "Example snow report for " + Month + "/" + Day + "/" + Year + "! (May take a moment to load in the browser) \n"
         lines[i] = "![Generated Image](Daily_Trail_Maps/Wildcat_" + Year + "_" + Month + "_" + Day + ".png) \n " 
 
 # Now write the new lines to the readme file
