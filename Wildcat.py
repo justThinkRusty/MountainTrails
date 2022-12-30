@@ -139,11 +139,11 @@ for index, row in lifts.iterrows():
 
 background.show()
 # Create a saved name for the image
-# Change the name to not have - and to have _ instead
+# Find where the T is in the pulled date
+T = date.find('T')
+# Remove everything after the T
+date = date[:T]
 date = date.replace('-', '_')
-date = date.replace('/', '_')
-date = date.replace(':', '_')
-date = date.replace('.', '_')
 
 name = 'Wildcat_' + date
 # Save the image
