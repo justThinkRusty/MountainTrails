@@ -11,8 +11,8 @@ from PIL import Image
 
 # Get current working directory
 cwd = os.getcwd()
-# cwd = cwd + '/PythonExp/MountainTrails/'
-assets = cwd + '/Wildcat_Assets/'
+assets = cwd + '/MountainTrails/Wildcat_Assets/'
+maps = cwd + '/MountainTrails/Daily_Trail_Maps/'
 
 # Create classes for lift and trail statuses
 class LiftStatus:
@@ -147,4 +147,4 @@ date = date.replace('.', '_')
 
 name = 'Wildcat_' + date
 # Save the image
-background.save(assets + name + '.png')
+background.save(maps + name + '.png')
