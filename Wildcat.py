@@ -11,8 +11,8 @@ from PIL import Image
 
 # Get current working directory
 cwd = os.getcwd()
-assets = cwd + '/MountainTrails/Wildcat_Assets/'
-maps = cwd + '/MountainTrails/Daily_Trail_Maps/'
+assets = cwd + '/Wildcat_Assets/'
+maps = cwd + '/Daily_Trail_Maps/'
 
 # Create classes for lift and trail statuses
 class LiftStatus:
@@ -109,10 +109,10 @@ for index, row in terrain.iterrows():
     # Get the image of the trail
     img = Image.open(assets + name + '.png')
 
-    # If the trail is closed, make the image gray and change opacity
+    # If the trail is closed, make the image light gray
     if status == False:
         # img = img.convert('LA')
-        img = img.point(lambda x: x*0.125)
+        img = img.point(lambda x: round(x*0.125))
 
     # Stack the image on top of the base map
     background.paste(img, (0, 0), img)
@@ -129,10 +129,10 @@ for index, row in lifts.iterrows():
     # Get the image of the lift
     img = Image.open(assets + name + '.png')
 
-    # If the lift is closed, make the image gray and change opacity
+    # If the lift is closed, make the image light gray
     if status == "Closed":
         # img = img.convert('LA')
-        img = img.point(lambda x: x*0.125)
+        img = img.point(lambda x: round(x*0.125))
 
     # Stack the image on top of the base map
     background.paste(img, (0, 0), img)

@@ -5,7 +5,7 @@ import os
 
 # Get current working directory
 cwd = os.getcwd()
-cwd = cwd + '/MountainTrails/'
+cwd = cwd + '/'
 Maps = cwd + 'Daily_Trail_Maps/'
 
 # Find all files that end with ".png"
