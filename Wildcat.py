@@ -137,7 +137,7 @@ for index, row in lifts.iterrows():
     # Stack the image on top of the base map
     background.paste(img, (0, 0), img)
 
-background.show()
+# background.show()
 # Create a saved name for the image
 # Find where the T is in the pulled date
 T = date.find('T')
