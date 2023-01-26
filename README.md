@@ -10,3 +10,5 @@ The process to adjust the maps and manually separate out each run takes a little
 
 ## What The Code Does
 The snow report is pulled from the resort's website each day, and scraped for the terrain and lift details. Then a base map of the mountain is pulled in, and images of each run are stacked on top of the base map with the appropriate transparency/color. Open runs are their original color, and closed runs are grey and opaque. The final product is a map of the mountain with the runs colored based on the snow report.
+
+Copyright Charlie Hanner - 2023
