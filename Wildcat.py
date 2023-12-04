@@ -147,4 +147,4 @@ date = date.replace('-', '_')
 
 name = 'Wildcat_' + date
 # Save the image with compression
-background.save(maps + name + '.png', optimize=True, quality=85)
+background.save(maps + name + '.png', optimize=True, quality=75)
