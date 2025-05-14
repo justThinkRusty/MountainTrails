@@ -3,7 +3,7 @@ This code was generated to aid in visualizing terrain conditions at ski resorts.
 
 Example snow report for 04/06/2025! (May take a moment to load in the browser) 
 ![Generated Image](Daily_Trail_Maps/Wildcat_2025_04_06.png) 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 ## Resorts Currently Supported
 The process to adjust the maps and manually separate out each run takes a little while photoshopping by hand, so this list will *slowly* grow over time. 
 - Wildcat Mountain, White Mountains NH
